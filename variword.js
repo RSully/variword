@@ -34,14 +34,13 @@
 			var liHeight = li.height();
 			var liWidth = nextLi.find('span.wrapper').width();
 
-
 			list.animate({
 				top: curTop - liHeight,
 				width: liWidth
 			}, {
 				queue: false,
 				duration: this.settings.duration
-			});
+			}).css({'overflow': 'visible'});
 			
 			li.animate({
 				opacity: 0
