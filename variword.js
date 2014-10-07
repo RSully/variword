@@ -1,3 +1,8 @@
+/**
+ * Copyright 2014.
+ * https://github.com/rsully/variword
+ */
+
 ;(function($, window, document, undefined){
 	var pluginName = "variword";
 	var defaults = {
