@@ -2,7 +2,20 @@
  * Copyright 2014.
  * https://github.com/rsully/variword
  */
- 
+
+/*
+ * Reset
+ */
+
+ .variword-sentence ul {
+ 	margin: 0;
+	padding: 0;
+ }
+
+ /*
+  * Everything else
+  */
+
 .variword-sentence {
 	position: absolute;
 }
