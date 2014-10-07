@@ -4,7 +4,7 @@ See `example.html` for quick usage, or read on.
 
 ## Usage
 
-First, download [variword.css](variword.css) and [variword.js](variword.js) and include them in your project.
+Download [variword.css](variword.css) and [variword.js](variword.js) and include them in your project. Then use the following HTML/JS to implement.
 
 HTML structure:
 
