@@ -19,7 +19,7 @@
 
 			list.find('li:not(:first-child)').css({visibility: 'visible', opacity: 0});
 			list.find('li').wrapInner('<span class="wrapper">');
-			list.width(list.width());
+			list.width(list.find('li:first-child span.wrapper').width());
 
 			setTimeout(function()
 			{
