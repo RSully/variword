@@ -1,19 +1,19 @@
 .variword-sentence {
 	position: absolute;
 }
-.variword-sentence * {
-	overflow-y: visible;
-}
+
 .variword-sentence .list {
 	display: inline-block;
 	vertical-align: text-top;
 	position: relative;
 }
+
 .variword-sentence ul {
 	display: block;
 	position: relative;
 	vertical-align: baseline;
 }
+
 .variword-sentence li {
 	display: block;
 	list-style: none;
