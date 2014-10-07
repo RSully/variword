@@ -21,3 +21,7 @@
 .variword-sentence li:not(:first-child) {
 	visibility: hidden;
 }
+
+.variword-sentence li span {
+	white-space: nowrap
+}
